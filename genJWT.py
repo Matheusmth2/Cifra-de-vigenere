@@ -34,3 +34,4 @@ def gerar_jwt(usuario, nome, is_admin):
     return token
 print("Gerando token JWT para o usuário 'usuario_exemplo'...")
 print(gerar_jwt("usuario_exemplo", "Matheus Makaline", True))
+# JWT é formatado com cabeçalho, payload e assinatura, separados por pontos. O token gerado pode ser usado para autenticação em APIs ou sistemas que suportam JWT.
